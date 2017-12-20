@@ -53,7 +53,7 @@ $(function() {
 	function initialize($) {
 		var mapOptions = {	
 			zoom: 8,
-			center: new google.maps.LatLng(17.421306, 78.457553),
+			center: new google.maps.LatLng(-27.4667527, -58.8337994),
 			disableDefaultUI: true
 		};
 		var map = new google.maps.Map(document.querySelector('.map'), mapOptions);
